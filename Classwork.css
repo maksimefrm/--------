@@ -1,0 +1,26 @@
+.h {
+    color: rgb(17, 180, 17);
+}
+.calc label {
+    display: block;
+}
+.title {
+    color: rgb(30, 30, 197);
+}
+li:first-child {
+color: green;
+}
+.dinamicform label {
+    display: block;
+}
+
+.courseForm {
+    display: block;
+}
+
+.phone {
+    display: block;
+}
+.convert {
+    display: block;
+}

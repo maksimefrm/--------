@@ -1,0 +1,15 @@
+.title2 {
+    color: blue; 
+}
+#myphoto {
+    width: 200px;
+    display: inline;
+}
+#resume {
+    font-size: 50px;
+    display: inline;
+}
+.title{
+font-size: 80px;
+color: rgb(150, 202, 71);
+}
