@@ -24,3 +24,46 @@ color: green;
 .convert {
     display: block;
 }
+.kitten {
+    width: 300px;
+    display: block;
+    border-radius: 1000px;
+    border: 10px solid rgb(211, 248, 23);
+}
+.fio {
+    font-size: 50px;
+    margin: 10px;
+    color:rgb(30, 30, 197);
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(175, 175, 175);
+    }
+    .fio {
+        display: block;
+        text-align: center;
+    }
+    .tglink {
+        display: none;
+    }
+    .ava img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media ((min-width: 601px) and (max-width: 900px)) {
+    body {
+        background-color: rgb(203, 203, 203);
+    }
+    .ava img {
+        display: block;
+        margin: 0 auto;
+    }
+    .fio {
+        font-size: 30px;
+        margin: 10px;
+        color:rgb(30, 30, 197);
+        text-align: center;
+    }
+}
